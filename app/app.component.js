@@ -36,7 +36,7 @@ System.register(['angular2/core'], function(exports_1, context_1) {
                     core_1.Component({
                         selector: 'display',
                         template: "<h1>{{ title }}</h1>\n    <ul>\n        <li *ngFor='#task of tasks'>\n            {{ task }}\n        </li>\n    </ul>\n    <input #task type='text' placeholder='nova tarefa' />\n    <button (click)='addTask(task.value)'>Add</button>\n    "
-                    }),
+                    }), 
                     __metadata('design:paramtypes', [])
                 ], TaskComponent);
                 return TaskComponent;
